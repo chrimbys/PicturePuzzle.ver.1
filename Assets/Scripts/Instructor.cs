@@ -4,12 +4,12 @@ using TMPro;
 
 public class Instructor : MonoBehaviour
 {
-    public float fadeSpeed;        //透明度が変わるスピードを管理
-    float red, green, blue, alfa;   //パネルの色、不透明度を管理
+    //public float fadeSpeed;        //透明度が変わるスピードを管理
+    //float red, green, blue, alfa;   //パネルの色、不透明度を管理
 
     bool isFadeIn;  //フェードアウト処理の開始、完了を管理するフラグ
     bool isFadeOut;
-    Image fadeImage;                //透明度を変更するパネルのイメージ
+    //Image fadeImage;                //透明度を変更するパネルのイメージ
     Animation anime;
 
     [SerializeField]
@@ -60,8 +60,8 @@ public class Instructor : MonoBehaviour
         startText.SetActive(true);
         Destroy(this.gameObject, 3f);
     }
-    void SetAlpha()
+    /*void SetAlpha()
     {
         fadeImage.color = new Color(red, green, blue, alfa);
-    }
+    }*/
 }

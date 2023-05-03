@@ -10,8 +10,10 @@ public class ClearScript : MonoBehaviour
 
     [SerializeField]
     GameObject clearText;
+    [SerializeField]
+    StageManager stageManager;
 
-    SoundManager soundManager;
+    SoundManager soundManager; //タイトルシーンで生成、オブジェクトを指定できなかったので検索
 
     void Start()
     {
@@ -23,9 +25,10 @@ public class ClearScript : MonoBehaviour
     {
         if(flag1 == true && flag2 == true && flag3 == true && flag4 == true)
         {
-            anime.Play();
-            flag1　= false;
-            if(SceneManager.GetActiveScene().name == "Stage1")
+            flag1 = false;
+            anime.Play();//フェードアウト
+            stageManager.NextStage();
+            /*if(SceneManager.GetActiveScene().name == "Stage1")
             {
                 PlayerPrefs.SetInt("score", 1);
                 PlayerPrefs.Save();
@@ -86,10 +89,10 @@ public class ClearScript : MonoBehaviour
             {
                 PlayerPrefs.SetInt("score", 12);
                 PlayerPrefs.Save();
-            }
+            }*/
         }
     }
-
+    //Animationにてメソッド実行設定
     void StartFadeOut()
     {
         clearText.SetActive(true);

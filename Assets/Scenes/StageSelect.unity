@@ -131,6 +131,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1343757480}
     m_Modifications:
     - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_Name
+      value: Mask11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -144,15 +148,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1343757481}
+      objectReference: {fileID: 1785086020}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Button11
+      value: StageSelect
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StageSelectController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868086, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Pivot.x
@@ -361,6 +377,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1343757480}
     m_Modifications:
     - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_Name
+      value: Mask5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -374,15 +394,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1343757481}
+      objectReference: {fileID: 1785086020}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Button5
+      value: StageSelect
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StageSelectController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868086, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Pivot.x
@@ -487,6 +519,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1343757480}
     m_Modifications:
     - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_Name
+      value: Mask3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -500,15 +536,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1343757481}
+      objectReference: {fileID: 1785086020}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Button3
+      value: StageSelect
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StageSelectController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868086, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Pivot.x
@@ -608,6 +656,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1343757480}
     m_Modifications:
     - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_Name
+      value: Mask12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -621,15 +673,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1343757481}
+      objectReference: {fileID: 1785086020}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Button12
+      value: StageSelect
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StageSelectController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868086, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Pivot.x
@@ -952,6 +1016,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1343757480}
     m_Modifications:
     - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_Name
+      value: Mask6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -965,15 +1033,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1343757481}
+      objectReference: {fileID: 1785086020}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Button6
+      value: StageSelect
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StageSelectController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868086, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Pivot.x
@@ -1105,6 +1185,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1343757480}
     m_Modifications:
     - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_Name
+      value: Mask10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1118,15 +1202,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1343757481}
+      objectReference: {fileID: 1785086020}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Button10
+      value: StageSelect
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StageSelectController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868086, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Pivot.x
@@ -1364,6 +1460,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1343757480}
     m_Modifications:
     - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_Name
+      value: Mask4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1377,15 +1477,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1343757481}
+      objectReference: {fileID: 1785086020}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Button4
+      value: StageSelect
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StageSelectController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868086, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Pivot.x
@@ -1501,6 +1613,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1343757480}
     m_Modifications:
     - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_Name
+      value: Mask8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1514,15 +1630,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1343757481}
+      objectReference: {fileID: 1785086020}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Button8
+      value: StageSelect
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StageSelectController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868086, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Pivot.x
@@ -1622,6 +1750,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1343757480}
     m_Modifications:
     - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_Name
+      value: Mask7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1635,15 +1767,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1343757481}
+      objectReference: {fileID: 1785086020}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Button7
+      value: StageSelect
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StageSelectController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868086, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Pivot.x
@@ -1743,6 +1887,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1343757480}
     m_Modifications:
     - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_Name
+      value: Mask2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1760,15 +1908,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1343757481}
+      objectReference: {fileID: 1785086020}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Button2
+      value: StageSelect
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StageSelectController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868086, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Pivot.x
@@ -2090,7 +2250,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1343757479}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c0d69f405b61247e1b4be93e43faa4dc, type: 3}
   m_Name: 
@@ -2406,6 +2566,76 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1785086019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1785086021}
+  - component: {fileID: 1785086020}
+  m_Layer: 0
+  m_Name: StageSelectController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1785086020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785086019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2775090eb86c04feb949c4c0e6f6271c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageButton:
+  - {fileID: 1967920448}
+  - {fileID: 1589818846}
+  - {fileID: 1906669728}
+  - {fileID: 1423526742}
+  - {fileID: 2123908914}
+  - {fileID: 377091447}
+  - {fileID: 362390257}
+  - {fileID: 2140476717}
+  - {fileID: 1748638113}
+  - {fileID: 755499267}
+  - {fileID: 1108680298}
+  - {fileID: 944843319}
+  mask:
+  - {fileID: 8939410522337594635}
+  - {fileID: 1414944718}
+  - {fileID: 796037905}
+  - {fileID: 1193824854}
+  - {fileID: 691983331}
+  - {fileID: 71519628}
+  - {fileID: 659929638}
+  - {fileID: 947817423}
+  - {fileID: 572903327}
+  - {fileID: 1540587865}
+  - {fileID: 606844363}
+  - {fileID: 2091726770}
+--- !u!4 &1785086021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785086019}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.443671, y: -1.0695246, z: 872.8183}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1906669728 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
@@ -2425,6 +2655,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1343757480}
     m_Modifications:
     - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_Name
+      value: Mask9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -2438,15 +2672,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1343757481}
+      objectReference: {fileID: 1785086020}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Button9
+      value: StageSelect
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StageSelectController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868086, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Pivot.x
@@ -2543,6 +2789,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8939410521981868086, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
   m_PrefabInstance: {fileID: 8939410522337594634}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1967920448 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+  m_PrefabInstance: {fileID: 8939410522337594634}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2091726770 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
@@ -2646,8 +2903,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1343757480}
     m_Modifications:
     - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_Name
+      value: Mask1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2424270987560152478, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8877892411297117952, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_Color.a
+      value: 0.56078434
+      objectReference: {fileID: 0}
+    - target: {fileID: 8877892411297117952, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868081, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Name
@@ -2658,9 +2927,25 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1343757481}
+      objectReference: {fileID: 1785086020}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StageSelect
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StageSelectController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939410521981868084, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8939410521981868086, guid: f0909dca694774f3986a657ad2afe7c4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
