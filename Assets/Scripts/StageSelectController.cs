@@ -15,37 +15,37 @@ public class StageSelectController : MonoBehaviour
     void Start()
     {
         int stageUnlock = PlayerPrefs.GetInt("StageUnlock", 1);//初期値
-        Debug.Log("stageUnlockの値は" + stageUnlock);
+        //Debug.Log("stageUnlockの値は" + stageUnlock);
         //ボタンの有効化
         for (int i = 0; i < stageButton.Length; i++)
         {
-            Debug.Log(i + "回目");
+            //Debug.Log(i + "回目");
             if (i < stageUnlock)
             {
                 stageButton[i].interactable = true;
-                Debug.Log("ボタンtrue");
+                //Debug.Log("ボタンtrue");
             }
             else
             {
                 stageButton[i].interactable = false;
-                Debug.Log("ボタンfalse");
+                //Debug.Log("ボタンfalse");
             }
         }
-        if(stageUnlock > 1)
+        if(stageUnlock > 1)//ステージクリアの表示
         {
             for (int j = 0; j < mask.Length; j++)
             {
                 if (stageUnlock - j > 1)
                 {
                     mask[j].SetActive(true);
-                    Debug.Log("マスクtrue: " + j);
+                    //Debug.Log("マスクtrue: " + j);
                 }
             }
         }
-        else
+        /*else
         {
             Debug.Log("mask実行してないよ");
-        }
+        }*/
     }
     //↓BuildSettingsのScenesInBuildの数字が対応している↓
     public void StageSelect(int stage)

@@ -6,35 +6,11 @@ using UnityEngine.SceneManagement;
 public class SoundManager : MonoBehaviour
 {
     [SerializeField]
-    AudioSource bgm;
+    AudioSource bgm;//BGM
     [SerializeField]
-    AudioSource click;
+    AudioSource click;//タップorクリック時
     [SerializeField]
-    AudioSource clear;
-
-    public float BGMVolume
-    {
-        get
-        {
-            return bgm.volume;
-        }
-        set
-        {
-            bgm.volume = Mathf.Clamp01(value);
-        }
-    }
-
-    public float ClickVolume
-    {
-        get
-        {
-            return click.volume;
-        }
-        set
-        {
-            click.volume = Mathf.Clamp01(value);
-        }
-    }
+    AudioSource clear;//stageクリア時
 
     void Start()
     {

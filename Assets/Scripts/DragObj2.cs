@@ -10,7 +10,7 @@ public class DragObj2 : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDrag
     private Vector2 prevPos; //保存しておく初期position
     private RectTransform rectTransform; // 移動したいオブジェクトのRectTransform
     private RectTransform parentRectTransform; // 移動したいオブジェクトの親(Panel)のRectTransform
-
+    //DragObj1と同様のためメモ省略
     [SerializeField]
     GameObject Panel2;
     [SerializeField]
@@ -21,9 +21,6 @@ public class DragObj2 : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDrag
     ClearScript clearScript;
   
     private Image image;
-    [SerializeField]
-    Sprite Icon2;
-
     float width = 150;
     float height = 150;
 
@@ -42,7 +39,6 @@ public class DragObj2 : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDrag
         // RectTransformの場合はpositionではなくanchoredPositionを使う
         prevPos = rectTransform.anchoredPosition;
         image.SetNativeSize();
-
     }
 
     // ドラッグ中の処理
@@ -50,7 +46,6 @@ public class DragObj2 : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDrag
     {
         // eventData.positionから、親に従うlocalPositionへの変換を行う
         // オブジェクトの位置をlocalPositionに変更する
-
         Vector2 localPosition = GetLocalPosition(eventData.position);
         rectTransform.anchoredPosition = localPosition;
 
@@ -61,7 +56,6 @@ public class DragObj2 : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDrag
     {
         // オブジェクトをドラッグ前の位置に戻す
         rectTransform.anchoredPosition = prevPos;
-
         rectTransform.sizeDelta = new Vector2(width, height);
     }
 
@@ -90,10 +84,10 @@ public class DragObj2 : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDrag
                 this.enabled = false;
                 //羽子板パネルをアクティブにして、itemとpicjudgeを消す
                 Panel2.SetActive(true);
-                Destroy(this.gameObject);
                 Destroy(Pos2);
                 Destroy(Hint2);
                 clearScript.flag2 = true;
+                Destroy(this.gameObject);
             }
         }
     }

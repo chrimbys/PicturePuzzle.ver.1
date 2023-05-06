@@ -21,9 +21,6 @@ public class DragObj4 : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDrag
     ClearScript clearScript;
   
     private Image image;
-    [SerializeField]
-    Sprite Icon4;
-
     float width = 150;
     float height = 150;
 
@@ -42,7 +39,6 @@ public class DragObj4 : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDrag
         // RectTransformの場合はpositionではなくanchoredPositionを使う
         prevPos = rectTransform.anchoredPosition;
         image.SetNativeSize();
-
     }
 
     // ドラッグ中の処理
@@ -50,7 +46,6 @@ public class DragObj4 : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDrag
     {
         // eventData.positionから、親に従うlocalPositionへの変換を行う
         // オブジェクトの位置をlocalPositionに変更する
-
         Vector2 localPosition = GetLocalPosition(eventData.position);
         rectTransform.anchoredPosition = localPosition;
 
@@ -61,7 +56,6 @@ public class DragObj4 : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDrag
     {
         // オブジェクトをドラッグ前の位置に戻す
         rectTransform.anchoredPosition = prevPos;
-
         rectTransform.sizeDelta = new Vector2(width, height);
     }
 
@@ -90,10 +84,10 @@ public class DragObj4 : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDrag
                 this.enabled = false;
                 //羽子板パネルをアクティブにして、itemとpicjudgeを消す
                 Panel4.SetActive(true);
-                Destroy(this.gameObject);
                 Destroy(Pos4);
                 Destroy(Hint4);
                 clearScript.flag4 = true;
+                Destroy(this.gameObject);
             }
         }
     }

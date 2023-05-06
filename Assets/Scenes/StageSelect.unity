@@ -2190,7 +2190,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1343757480}
   - component: {fileID: 1343757481}
-  - component: {fileID: 1343757482}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -2243,42 +2242,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   poseWindow: {fileID: 0}
---- !u!114 &1343757482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1343757479}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0d69f405b61247e1b4be93e43faa4dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: 0
-  stage2: {fileID: 1589818846}
-  stage3: {fileID: 1906669728}
-  stage4: {fileID: 1423526742}
-  stage5: {fileID: 2123908914}
-  stage6: {fileID: 377091447}
-  stage7: {fileID: 362390257}
-  stage8: {fileID: 2140476717}
-  stage9: {fileID: 1748638113}
-  stage10: {fileID: 755499267}
-  stage11: {fileID: 1108680298}
-  stage12: {fileID: 944843319}
-  mask1: {fileID: 8939410522337594635}
-  mask2: {fileID: 1414944718}
-  mask3: {fileID: 796037905}
-  mask4: {fileID: 1193824854}
-  mask5: {fileID: 691983331}
-  mask6: {fileID: 71519628}
-  mask7: {fileID: 659929638}
-  mask8: {fileID: 947817423}
-  mask9: {fileID: 572903327}
-  mask10: {fileID: 1540587865}
-  mask11: {fileID: 606844363}
-  mask12: {fileID: 2091726770}
 --- !u!1 &1374052052
 GameObject:
   m_ObjectHideFlags: 0
