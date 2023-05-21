@@ -300,7 +300,6 @@ MonoBehaviour:
   Pos3: {fileID: 2126874243}
   Hint3: {fileID: 1677727555}
   clearScript: {fileID: 1460233775}
-  Icon3: {fileID: -2109888818, guid: 4c8282e15cefc4595a04f6c23413f8a5, type: 3}
 --- !u!1 &102823552
 GameObject:
   m_ObjectHideFlags: 0
@@ -1103,7 +1102,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -100, y: -100}
+  m_AnchoredPosition: {x: -150, y: -150}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &471673466
@@ -1293,7 +1292,6 @@ MonoBehaviour:
   Pos2: {fileID: 1155696159}
   Hint2: {fileID: 682152440}
   clearScript: {fileID: 1460233775}
-  Icon2: {fileID: -1053370490, guid: dae2bfc9c6cc046199e3be2f8aab7aec, type: 3}
 --- !u!1 &682152440
 GameObject:
   m_ObjectHideFlags: 0
@@ -2148,7 +2146,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 800}
+  m_AnchoredPosition: {x: 0, y: 730}
   m_SizeDelta: {x: 900, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1125512792
@@ -3128,7 +3126,6 @@ MonoBehaviour:
   Pos4: {fileID: 271686641}
   Hint4: {fileID: 252783947}
   clearScript: {fileID: 1460233775}
-  Icon4: {fileID: 1290707187, guid: fe06dc1896ef4434da226b10da840cd9, type: 3}
 --- !u!1 &1675404236
 GameObject:
   m_ObjectHideFlags: 0
@@ -3638,7 +3635,6 @@ MonoBehaviour:
   Pos1: {fileID: 183454490}
   Hint1: {fileID: 1282830753}
   clearScript: {fileID: 1460233775}
-  Icon1: {fileID: -858324464, guid: 299e1597769f54d039b8346688bfa5a2, type: 3}
 --- !u!1001 &2103188921
 PrefabInstance:
   m_ObjectHideFlags: 0
